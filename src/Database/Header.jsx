@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header className="bg-gray-800 text-white p-4 flex justify-between items-center">
       <div className="text-lg font-bold">
-        MyApp
+        MyApp new app
       </div>
       <nav className="space-x-4">
         <Link to={"/signin"} className="hover:text-gray-400">sigin</Link>
