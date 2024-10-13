@@ -16,7 +16,7 @@ function  Dashboard() {
             <p className="text-gray-500 mt-4">Last week Income: $25658.00</p>
           </div>
 
-          <div className="bg-white p-6 rounded-lg shadow-md">
+          <div className="bg-white p-6 rounded-lg shadow-md-red">
             <h3 className="text-xl font-semibold">Expenses</h3>
             <p className="text-3xl text-red-600 font-bold">$5660.00</p>
             <p className="text-sm text-gray-600">Compared to $5240 yesterday</p>

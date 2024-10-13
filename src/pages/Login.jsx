@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
+
 function Login() {
-    
+
+
+      
  
   return (
     <div className="flex min-h-screen items-center justify-center bg-gray-100">
@@ -8,7 +11,7 @@ function Login() {
         {/* Left Section */}
         <div className="w-1/2 p-8 bg-white">
           <div className="flex items-center justify-center mb-8">
-            <img src="/logo.png" alt="Globe Logo" className="h-8" />
+            <img src="https://img.icons8.com/?size=100&id=12665&format=png" alt="Globe Logo" className="h-8" />
           </div>
           <h2 className="text-3xl font-bold text-gray-800 mb-4">Login</h2>
           <p className="text-gray-600 mb-8">Login to access your Globe account.</p>
@@ -67,13 +70,13 @@ function Login() {
             <p className="text-gray-600 mb-4">Or login with</p>
             <div className="flex justify-center space-x-4">
               <button className="flex items-center justify-center w-10 h-10 bg-gray-100 rounded-full">
-                <img src="/facebook.svg" alt="Facebook" className="h-6" />
+                <img src="https://img.icons8.com/?size=96&id=118497&format=png" alt="Facebook" className="h-6" />
               </button>
               <button className="flex items-center justify-center w-10 h-10 bg-gray-100 rounded-full">
-                <img src="/google.svg" alt="Google" className="h-6" />
+                <img src="https://img.icons8.com/?size=96&id=17949&format=png" alt="Google" className="h-6" />
               </button>
               <button className="flex items-center justify-center w-10 h-10 bg-gray-100 rounded-full">
-                <img src="/apple.svg" alt="Apple" className="h-6" />
+                <img src="https://img.icons8.com/?size=100&id=30840&format=png" alt="Apple" className="h-6" />
               </button>
             </div>
           </div>
@@ -82,7 +85,7 @@ function Login() {
         {/* Right Section (Image) */}
         <div className="w-1/2">
           <img
-            src="/login-image.jpg"
+            src="https://images.unsplash.com/photo-1530758857751-3c6e5147e24d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHBsYW5lfGVufDB8fDB8fHww"
             alt="Login"
             className="w-full h-full object-cover"
           />

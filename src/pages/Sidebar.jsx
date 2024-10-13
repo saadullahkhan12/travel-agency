@@ -1,8 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 const Sidebar = () => {
   return (
-    <div className="bg-teal-300 h-screen p-5 flex flex-col justify-between text-white">
+    <div style={{ backgroundColor: '#8dd3bb' }} className=" h-screen p-5 flex flex-col justify-between text-white">
       <div>
         <div className="mb-8">
           <h1 className=" text-black text-2xl underline font-bold">travel Agency</h1>

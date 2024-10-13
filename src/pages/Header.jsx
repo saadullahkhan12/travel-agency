@@ -10,8 +10,7 @@ const Header = () => {
         {/* Flight icon and text */}
         <div className="flex items-center space-x-1">
         <span><img src="https://img.icons8.com/?size=50&id=12665&format=png" className="w-6 h-6 "  /></span>
-          
-        <span className="relative text-[#3b3b3b] font-semibold group">
+      <span className="relative text-[#3b3b3b] font-semibold group">
   Find Flight
 
   <span className="absolute  left-0 bottom-0 w-0 h-0.5 bg-[#8dd3bb]  transition-all duration-300 group-hover:w-full"></span>
@@ -24,11 +23,12 @@ const Header = () => {
         {/* Stay icon and text */}
         <div className="flex items-center space-x-1">
           <span><img src="https://img.icons8.com/?size=50&id=8021&format=png " className="w-4 h-6 "  /></span>
-          
-        <span className="relative text-[#3b3b3b] font-semibold group">
+              
+       <Link to={"/HotelListingPage"}> <span className="relative text-[#3b3b3b] font-semibold group">
   Find stays
   <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-[#8dd3bb] transition-all duration-300  group-hover:w-full "></span>
-</span>
+</span> </Link>
+       
         </div>
       </div>
 
@@ -43,7 +43,7 @@ const Header = () => {
     
         
       
-        <Link to={"/SignUpForm"} className="bg-[#3b3b3b] text-white px-4 py-2 rounded-md"> Sign up</Link>
+        <Link to={"/signup"} className="bg-[#3b3b3b] text-white px-4 py-2 rounded-md"> Sign up</Link>
         
       </div>
     </header>
