@@ -12,6 +12,36 @@ const TravelPage = () => {
   const handleSearch = () => {
     console.log(`Searching flights from ${from} to ${to} ${departureDate} `);
   };
+  Log in
+
+  Sign up
+  You said:
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
+            {['Istanbul, Turkey', 'Sydney, Australia', 'Baku, Azerbaijan', 'Maldives', 'Paris, France', 'New York, US', 'London, UK', 'Tokyo, Japan', 'Dubai, UAE'].map((location) => (
+              <div key={location} className="bg-white shadow-md rounded-lg overflow-hidden">
+                <img src={'images'} alt={location} className="w-full h-40 object-cover" />
+                <div className="p-4">
+                  <h3 className="font-bold">{location}</h3>
+  
+  
+  same as i need object of image array for image
+  ChatGPT said:
+  ChatGPT
+  To create an array of image objects for your locations, you can structure it like this:
+  
+  javascript
+  Copy code
+  const locations = [
+    { name: 'Istanbul, Turkey', image: 'path/to/istanbul.jpg' },
+    { name: 'Sydney, Australia', image: 'path/to/sydney.jpg' },
+    { name: 'Baku, Azerbaijan', image: 'path/to/baku.jpg' },
+    { name: 'Maldives', image: 'path/to/maldives.jpg' },
+    { name: 'Paris, France', image: 'path/to/paris.jpg' },
+    { name: 'New York, US', image: 'path/to/newyork.jpg' },
+    { name: 'London, UK', image: 'path/to/london.jpg' },
+    { name: 'Tokyo, Japan', image: 'path/to/tokyo.jpg' },
+    { name: 'Dubai, UAE', image: 'path/to/dubai.jpg' }
+  ];
 
   return (
     <div className="bg-gray-100">
@@ -49,7 +79,7 @@ const TravelPage = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
           {['Istanbul, Turkey', 'Sydney, Australia', 'Baku, Azerbaijan', 'Maldives', 'Paris, France', 'New York, US', 'London, UK', 'Tokyo, Japan', 'Dubai, UAE'].map((location) => (
             <div key={location} className="bg-white shadow-md rounded-lg overflow-hidden">
-              <img src={"https://images.unsplash.com/photo-1499678329028-101435549a4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dHVya2tleSUyMHBsYWNlfGVufDB8fDB8fHww"} alt={location} className="w-full h-40 object-cover" />
+              <img src={'images'} alt={location} className="w-full h-40 object-cover" />
               <div className="p-4">
                 <h3 className="font-bold">{location}</h3>
                 <div className="mt-2">
