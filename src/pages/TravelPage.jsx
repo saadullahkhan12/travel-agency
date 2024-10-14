@@ -29,7 +29,7 @@ const TravelPage = () => {
   return (
     <>
         <div className="bg-gray-100">
-      <div className="relative bg-cover bg-center h-[500px] flex items-center justify-center" style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1617718105767-35ec173584e5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dHJhdmVsJTIwYW5kJTIwbGl2ZXxlbnwwfHwwfHx8MA%3D%3D")' }}>
+      <div className="relative bg-cover bg-center h-[500px] flex items-center justify-center" style={{ backgroundImage: 'url("https://plus.unsplash.com/premium_photo-1679830513990-82a4280f41b4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cGxhbmV8ZW58MHx8MHx8fDA%3D")' }}>
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="relative z-10 text-white text-center">
           <h1 className="text-4xl font-bold">Helping Others LIVE & TRAVEL</h1>
